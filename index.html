@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Solar System Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="controls">
+    <h2>Solar System Simulator</h2>
+
+    <button onclick="toggleAnimation()">Pause / Play</button>
+
+    <label>Speed</label>
+    <input type="range" min="1" max="10" value="5" id="speedSlider">
+
+</div>
+
+<div id="solar-system">
+
+    <div id="sun"></div>
+
+    <div class="orbit mercury">
+        <div class="planet mercury-planet"></div>
+    </div>
+
+    <div class="orbit venus">
+        <div class="planet venus-planet"></div>
+    </div>
+
+    <div class="orbit earth">
+        <div class="planet earth-planet"></div>
+    </div>
+
+    <div class="orbit mars">
+        <div class="planet mars-planet"></div>
+    </div>
+
+    <div class="orbit jupiter">
+        <div class="planet jupiter-planet"></div>
+    </div>
+
+    <div class="orbit saturn">
+        <div class="planet saturn-planet"></div>
+    </div>
+
+    <div class="orbit uranus">
+        <div class="planet uranus-planet"></div>
+    </div>
+
+    <div class="orbit neptune">
+        <div class="planet neptune-planet"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
