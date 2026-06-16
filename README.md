@@ -8,7 +8,7 @@ Experience the beauty of space through a visually engaging Solar System model wh
 
 ## 🚀 Live Demo
 
-🌐 **Website:** YOUR_LIVE_DEMO_LINK
+🌐 **Website:** https://avinashmanitiwari.github.io/Moving-Solar-System/
 
 
 ## ✨ Features
